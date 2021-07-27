@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e5e5e5;
+    background-image: url(/images/Image.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 660px;
+}
+
+header{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+header nav  li{
+    display: inline-block;
+    margin-left: 45px;
+    }
+
+nav a{
+    text-decoration: none;
+}
+
+.container{
+    margin: auto;
+    max-width: 80%;
+}
+
+.container1{
+    display: inline-block;
+    border-bottom: 1px solid #C08D5D;
+    overflow: auto;
+    padding-bottom: 59px;
+    padding-top: 59px;
+}
+.logo1{
+    margin-right: 38px;
+    max-width: 26px;
+    vertical-align: middle;
+}
+
+.logo2{
+    float: left;
+    margin: auto;
+    max-width: 30px;
+}
+.picture1{
+    width: 38px;
+}
+
+nav{
+   display: inline-block;
+   margin-top: 59px;
+   padding-bottom: 59px;
+   vertical-align: middle;
+}
+
+.color:hover{
+    color: #C08D5D;
+
+}
+.container2{
+    margin-top: 138px;
+}
+
+main h1{
+    font-family: Yeseva One;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #3F4042;
+}
+
+.H1{
+    font-size: 50px;
+    line-height: 58px;
+    display: block;
+}
+.H1:after{
+    content: url(/images/Logo.svg);
+    display: inline-block;
+}
+
+.linea{
+    padding-top: 45px;
+    padding-bottom: 26px;
+    width: 165px;
+}
+main p{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    max-width: 50%;
+
+}
+.move-to{
+    display: inline-block;
+    color: #3f4042;
+    text-decoration: none;
+    padding-left: 15px;
+    border: #C08D5D 2px solid;
+    margin-top: 72px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+
+.move-to:after{
+    content: url(/images/vector2.svg);
+    display: inline-block;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-left: 11px;
+    background-color: #C08D5D;
+}
+
+.mouse{
+    margin-left: 50%;
+    margin-right: 50% ;
+    margin-top: 62px;
+    width: 8px;
+}
+
+.mouse2{
+    max-width: 33px;
+}
